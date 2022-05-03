@@ -1,4 +1,5 @@
-const {SQSClient} = require('@aws-sdk/client-sqs')
+const { SQSClient } = require('@aws-sdk/client-sqs')
+
 const endpoint = process.env.AWS_ENDPOINT || ''
 const options = { region: process.env.AWS_REGION }
 
