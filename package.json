@@ -1,0 +1,20 @@
+{
+  "name": "empty-project-template",
+  "version": "1.0.0",
+  "description": "Empty project with base settings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksei Anisimov <i@extra-dev.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.0.3",
+    "prettier": "^2.6.2"
+  }
+}
